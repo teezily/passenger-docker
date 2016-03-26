@@ -1,4 +1,4 @@
-NAME = phusion/passenger
+NAME = teezily/web-base
 VERSION = 0.9.18
 
 .PHONY: all build_all \

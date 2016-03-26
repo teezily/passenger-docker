@@ -29,8 +29,6 @@ minimal_apt_get_install libxml2-dev libxslt1-dev
 minimal_apt_get_install imagemagick libmagickwand-dev
 ## For mysql and mysql2.
 minimal_apt_get_install libmysqlclient-dev
-## For sqlite3.
-minimal_apt_get_install libsqlite3-dev
 ## For postgres and pg.
 minimal_apt_get_install libpq-dev
 ## For curb.
