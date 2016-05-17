@@ -1,5 +1,5 @@
 NAME = teezily/web-base
-VERSION = 0.9.19
+VERSION = 0.9.20
 
 .PHONY: all build_all \
 	build_customizable \
@@ -15,6 +15,7 @@ build_all: \
 	build_ruby20 \
 	build_ruby21 \
 	build_ruby22 \
+	build_ruby23 \
 	build_jruby90 \
 	build_nodejs \
 	build_full
@@ -53,6 +54,13 @@ build_ruby22:
 	echo ruby22=1 >> ruby22_image/buildconfig
 	echo final=1 >> ruby22_image/buildconfig
 	docker build -t $(NAME)-ruby22:$(VERSION) --rm ruby22_image
+
+build_ruby23:
+	rm -rf ruby23_image
+	cp -pR image ruby23_image
+	echo ruby23=1 >> ruby23_image/buildconfig
+	echo final=1 >> ruby23_image/buildconfig
+	docker build -t $(NAME)-ruby23:$(VERSION) --rm ruby23_image
 
 build_jruby90:
 	rm -rf jruby90_image
