@@ -1,3 +1,8 @@
+## 0.9.20 (release date: 2016-05-17)
+
+ * Upgraded to Ruby 2.2.4 and 2.3.1.
+ * Upgraded to Nginx 1.10.0
+
 ## 0.9.18 (release date: 2015-12-08)
 
  * Upgraded to Phusion Passenger 5.0.22.
