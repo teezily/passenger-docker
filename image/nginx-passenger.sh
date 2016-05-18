@@ -17,3 +17,6 @@ touch /etc/service/nginx/down
 
 mkdir /etc/service/nginx-log-forwarder
 cp /pd_build/runit/nginx-log-forwarder /etc/service/nginx-log-forwarder/run
+
+mkdir /etc/service/nginx-access-log-forwarder
+cp /pd_build/runit/nginx-access-log-forwarder /etc/service/nginx-access-log-forwarder/run
