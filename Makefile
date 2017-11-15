@@ -1,5 +1,5 @@
 NAME = teezily/web-base
-VERSION = 0.9.21
+VERSION = 0.9.22
 
 .PHONY: all build_all \
 	build_customizable \

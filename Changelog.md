@@ -1,3 +1,11 @@
+## 0.9.22 (release date: 2017-11-15)
+
+ * Upgraded to Ruby 2.3.5.
+
+## 0.9.21 (release date: 2016-05-18)
+
+ * Add nginx-access-log-forwarder.
+
 ## 0.9.20 (release date: 2016-05-17)
 
  * Upgraded to Ruby 2.2.4 and 2.3.1.
