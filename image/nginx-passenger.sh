@@ -4,7 +4,7 @@ source /pd_build/buildconfig
 source /etc/environment
 set -x
 
-apt-get install -y nginx-extras
+minimal_apt_get_install nginx-extras
 
 cp /pd_build/config/nginx.conf /etc/nginx/nginx.conf
 mkdir -p /etc/nginx/main.d
